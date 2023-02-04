@@ -10,7 +10,7 @@ function ProductCard({ title, category, price, image }) {
         <h5 className="card-title">{title}</h5>
         <p className="card-text text-danger">{category}</p>
         <h3 className="text-dark">${price}</h3>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <div className="d-grid gap-2 d-md-flex justify-content-md-center">
           <button type="button" className="btn btn-outline-success px-5">
             <BsPencil />
           </button>
